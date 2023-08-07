@@ -211,9 +211,9 @@ const update = (cursorPosition) => {
       rotateDegree * rotateSpeed
     }deg)  perspective(2300px) translateZ(${zValue * speedz}px)`;
   });
-  console.log(xValue, yValue);
 };
 
+// checks if the screen has to be resized
 onBeforeMount(() => {
   if (window.innerWidth >= 725) {
     screenWidth = `${window.innerWidth * 0.6}px`;
