@@ -81,7 +81,7 @@
       data-rotation="0.11"
       data-distance="0"
     >
-      <h2>This is</h2>
+      <h2>This is a</h2>
       <h1>Homepage</h1>
     </div>
     <img
